@@ -1,0 +1,221 @@
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     connector 
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  1.9661    
+Min. group size:       1           Log-Likelihood:         -4107.6940
+Max. group size:       183         Converged:              No        
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   1.251    0.077 16.330 0.000  1.101  1.401
+C(host_associated)[T.True] -0.178    0.101 -1.769 0.077 -0.375  0.019
+Group Var                   0.206    0.029                           
+=====================================================================
+
+
+                Mixed Linear Model Regression Results
+======================================================================
+Model:            MixedLM Dependent Variable: transcription_regulation
+No. Observations: 2308    Method:             REML                    
+No. Groups:       172     Scale:              2.7822                  
+Min. group size:  1       Log-Likelihood:     -4517.3943              
+Max. group size:  183     Converged:          Yes                     
+Mean group size:  13.4                                                
+----------------------------------------------------------------------
+                            Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------
+Intercept                    1.581    0.099 15.905 0.000  1.386  1.776
+C(host_associated)[T.True]  -0.251    0.125 -2.003 0.045 -0.496 -0.005
+Group Var                    0.389    0.051                           
+======================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     other     
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  1.8551    
+Min. group size:       1           Log-Likelihood:         -4065.0111
+Max. group size:       183         Converged:              Yes       
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   1.102    0.087 12.634 0.000  0.931  1.273
+C(host_associated)[T.True] -0.032    0.108 -0.292 0.770 -0.243  0.180
+Group Var                   0.385    0.155                           
+=====================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     moron     
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  1.1699    
+Min. group size:       1           Log-Likelihood:         -3510.0206
+Max. group size:       183         Converged:              Yes       
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   0.728    0.059 12.317 0.000  0.612  0.844
+C(host_associated)[T.True] -0.042    0.078 -0.544 0.586 -0.194  0.110
+Group Var                   0.126    0.030                           
+=====================================================================
+
+
+                         Mixed Linear Model Regression Results
+========================================================================================
+Model:            MixedLM Dependent Variable: auxiliary_metabolic_gene_and_host_takeover
+No. Observations: 2308    Method:             REML                                      
+No. Groups:       172     Scale:              1.1699                                    
+Min. group size:  1       Log-Likelihood:     -3510.0206                                
+Max. group size:  183     Converged:          Yes                                       
+Mean group size:  13.4                                                                  
+-------------------------------------------------------------------------------------------
+                                  Coef.     Std.Err.      z       P>|z|    [0.025    0.975]
+-------------------------------------------------------------------------------------------
+Intercept                          0.728       0.059    12.317    0.000     0.612     0.844
+C(host_associated)[T.True]        -0.042       0.078    -0.544    0.586    -0.194     0.110
+Group Var                          0.126       0.030                                       
+========================================================================================
+
+
+             Mixed Linear Model Regression Results
+===============================================================
+Model:                 MixedLM    Dependent Variable:    vf_amr
+No. Observations:      2308       Method:                REML  
+No. Groups:            172        Scale:                 0.0000
+Min. group size:       1          Log-Likelihood:        inf   
+Max. group size:       183        Converged:             No    
+Mean group size:       13.4                                    
+---------------------------------------------------------------
+                           Coef. Std.Err. z P>|z| [0.025 0.975]
+---------------------------------------------------------------
+Intercept                  0.000                               
+C(host_associated)[T.True] 0.000                               
+Group Var                  0.000                               
+===============================================================
+
+
+                Mixed Linear Model Regression Results
+======================================================================
+Model:            MixedLM Dependent Variable: integration_and_excision
+No. Observations: 2308    Method:             REML                    
+No. Groups:       172     Scale:              1.0106                  
+Min. group size:  1       Log-Likelihood:     -3333.6649              
+Max. group size:  183     Converged:          No                      
+Mean group size:  13.4                                                
+----------------------------------------------------------------------
+                            Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------
+Intercept                    0.906    0.052 17.269 0.000  0.803  1.009
+C(host_associated)[T.True]  -0.097    0.069 -1.402 0.161 -0.232  0.038
+Group Var                    0.084    0.019                           
+======================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:               MixedLM   Dependent Variable:   unknown_function
+No. Observations:    2308      Method:               REML            
+No. Groups:          172       Scale:                419.1662        
+Min. group size:     1         Log-Likelihood:       -10291.9787     
+Max. group size:     183       Converged:            No              
+Mean group size:     13.4                                            
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                  30.176    1.120 26.940 0.000 27.981 32.372
+C(host_associated)[T.True] -0.855    1.469 -0.582 0.561 -3.733  2.024
+Group Var                  46.302    0.442                           
+=====================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:               MixedLM  Dependent Variable:  head_and_packaging
+No. Observations:    2308     Method:              REML              
+No. Groups:          172      Scale:               6.7514            
+Min. group size:     1        Log-Likelihood:      -5527.4214        
+Max. group size:     183      Converged:           Yes               
+Mean group size:     13.4                                            
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   3.599    0.138 26.067 0.000  3.328  3.869
+C(host_associated)[T.True] -0.331    0.182 -1.820 0.069 -0.688  0.025
+Group Var                   0.645    0.068                           
+=====================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     DNA       
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  8.0502    
+Min. group size:       1           Log-Likelihood:         -5724.0411
+Max. group size:       183         Converged:              Yes       
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   2.998    0.143 20.904 0.000  2.717  3.279
+C(host_associated)[T.True] -0.348    0.192 -1.810 0.070 -0.726  0.029
+Group Var                   0.614    0.070                           
+=====================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     tail      
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  12.2592   
+Min. group size:       1           Log-Likelihood:         -6245.7799
+Max. group size:       183         Converged:              Yes       
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   3.409    0.230 14.835 0.000  2.959  3.860
+C(host_associated)[T.True] -0.674    0.284 -2.369 0.018 -1.231 -0.116
+Group Var                   2.772    0.149                           
+=====================================================================
+
+
+                   Mixed Linear Model Regression Results
+===========================================================================
+Model:            MixedLM Dependent Variable: RNA_and_nucleotide_metabolism
+No. Observations: 2308    Method:             REML                         
+No. Groups:       172     Scale:              8.0502                       
+Min. group size:  1       Log-Likelihood:     -5724.0411                   
+Max. group size:  183     Converged:          Yes                          
+Mean group size:  13.4                                                     
+----------------------------------------------------------------------------
+                             Coef.   Std.Err.    z     P>|z|  [0.025  0.975]
+----------------------------------------------------------------------------
+Intercept                     2.998     0.143  20.904  0.000   2.717   3.279
+C(host_associated)[T.True]   -0.348     0.192  -1.810  0.070  -0.726   0.029
+Group Var                     0.614     0.070                               
+===========================================================================
+
+
+                Mixed Linear Model Regression Results
+=====================================================================
+Model:                 MixedLM     Dependent Variable:     lysis     
+No. Observations:      2308        Method:                 REML      
+No. Groups:            172         Scale:                  1.3672    
+Min. group size:       1           Log-Likelihood:         -3705.4120
+Max. group size:       183         Converged:              Yes       
+Mean group size:       13.4                                          
+---------------------------------------------------------------------
+                           Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------
+Intercept                   1.081    0.072 14.923 0.000  0.939  1.223
+C(host_associated)[T.True] -0.225    0.091 -2.476 0.013 -0.403 -0.047
+Group Var                   0.233    0.040                           
+=====================================================================
+
+
